@@ -2,28 +2,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FruitBasket {
-    List<Fruit> firstLayer = new ArrayList<>();
-    List<Fruit> secondLayer = new ArrayList<>();
-    List<Fruit> thirdLayer = new ArrayList<>();
+    private String layer;
 
-    public void sortFruitsBySize(List<Fruit> fruitsBowl) {
-        for (Fruit fruit : fruitsBowl) {
-            if (fruit.size.equalsIgnoreCase("Small")) {
-                firstLayer.add(fruit);
-            } else if (fruit.size.equalsIgnoreCase("Big")) {
-                thirdLayer.add(fruit);
-            } else
-                secondLayer.add(fruit);
-        }
-        printFruitBasket(firstLayer,1);
-        printFruitBasket(secondLayer,2);
-        printFruitBasket(thirdLayer,3);
+    public FruitBasket(String layer) {
+        this.layer = layer;
     }
 
-    public void printFruitBasket(List<Fruit> fruits, int layer) {
-        System.out.println("Fruits in Basket sorted by Size in " +layer+ " are");
-        for (Fruit fruit : fruits) {
-            System.out.println(fruit.getName());
-        }
+    public String getLayer(){
+        return layer;
+    }
+
+    public void setLayer(String layer) {
+        this.layer = layer;
     }
 }
+
+// bowl as a class, fruit basket contains bowls
+//sort logic in a driver class
+// print fruitbasket in driver
+
+

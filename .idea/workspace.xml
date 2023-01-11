@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81c41fed-2f7f-4a90-aa14-660610de77c4" name="Changes" comment="" />
+    <list default="true" id="81c41fed-2f7f-4a90-aa14-660610de77c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FruitBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FruitBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FruitsInBowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FruitBowl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,10 +44,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration name="FruitsInBowl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FruitsInBowl" />
+  <component name="RunManager" selected="Application.Driver">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="ChallengeFruitBowl.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FruitBowl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FruitBowl" />
       <module name="ChallengeFruitBowl.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,7 +63,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FruitsInBowl" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.FruitBowl" />
       </list>
     </recent_temporary>
   </component>
@@ -64,5 +78,17 @@
       <updated>1671109165347</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
