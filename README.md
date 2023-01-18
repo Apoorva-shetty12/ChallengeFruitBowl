@@ -7,4 +7,4 @@ Assume mixed Fruits in a Bowl. Now the goal is to segregate fruits from the curr
 Assuming Fruit bowl containing 5 fruits of different Type, color, size. Assuming fruit basket has 3 layers. Segregated fruits from bowl to basket based on size.
 
 # Execution
-Clone the project and proceed to run from 
+Clone the project and proceed to run Driver.java class
