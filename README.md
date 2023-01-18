@@ -8,3 +8,7 @@ Assuming Fruit bowl containing 5 fruits of different Type, color, size. Assuming
 
 # Execution
 Clone the project and proceed to run Driver.java class
+
+TechStack used
+Java
+Gradle
